@@ -21,25 +21,121 @@
 
     <main>
         <section id="hero">
-            <h1>Hello, I'm Lewis.</h1>
-            <p>Welcome to my personal website hosted on GitHub Pages.</p>
-            <a href="#contact" class="btn">Get in Touch</a>
+            <h1>Lewis Lui</h1>
+            <p class="subtitle">Machine Learning Engineer | Software Developer</p>
+            <p class="intro-text">
+                Master of Computer Science student at UCI and UC Berkeley EECS Graduate. 
+                Specializing in AI, NLP, and scalable backend systems.
+            </p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn primary-btn">Get in Touch</a>
+                <a href="resume.pdf" class="btn secondary-btn" target="_blank">Download Resume</a>
+            </div>
         </section>
 
-        <section id="about">
-            <h2>About Me</h2>
-            <p>I am learning how to build websites and manage projects on GitHub. This is my very first webpage!</p>
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="tags">
+                        <span>Python</span> <span>Java</span> <span>C/C++</span> 
+                        <span>SQL</span> <span>JavaScript</span> <span>TypeScript</span>
+                        <span>Rust</span> <span>Go</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>ML & Backend</h3>
+                    <div class="tags">
+                        <span>PyTorch</span> <span>TensorFlow</span> <span>NumPy/Pandas</span>
+                        <span>Flask</span> <span>Spring</span> <span>React</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Systems & Cloud</h3>
+                    <div class="tags">
+                        <span>AWS</span> <span>Docker</span> <span>Kubernetes</span>
+                        <span>Linux</span> <span>Git</span> <span>CI/CD</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Work Experience</h2>
+            
+            <div class="job-card">
+                <div class="job-header">
+                    <h3>Machine Learning / Software Engineer</h3>
+                    <span class="date">Jun 2025 – Aug 2025</span>
+                </div>
+                <h4 class="company">Tsavorite Scalable Intelligence | Milpitas, CA</h4>
+                <ul>
+                    [cite_start]<li>Designed Python-based REST APIs on AWS to deploy Hugging Face models, contributing to <strong>$100M+ deals</strong>[cite: 15].</li>
+                    [cite_start]<li>Optimized C/C++ Linux libraries, achieving <strong>18x faster</strong> token generation than benchmarks[cite: 16].</li>
+                    [cite_start]<li>Optimized FPGA-based inference pipelines, delivering <strong>7x speedups</strong> over standard hardware[cite: 17].</li>
+                </ul>
+            </div>
+
+            <div class="job-card">
+                <div class="job-header">
+                    <h3>Software Developer (Contract)</h3>
+                    <span class="date">Jan 2025 – Jun 2025</span>
+                </div>
+                <h4 class="company">Surge AI (DataAnnotation Tech) | Remote</h4>
+                <ul>
+                    [cite_start]<li>Evaluated Python/C/Java LLM outputs, improving correctness by <strong>17%</strong>[cite: 20].</li>
+                    [cite_start]<li>Validated JavaScript training datasets, reducing hallucinations by <strong>23%</strong>[cite: 22].</li>
+                    [cite_start]<li>Performed QA across <strong>10+ AI/ML models</strong> validating execution and reasoning[cite: 21].</li>
+                </ul>
+            </div>
+
+            <div class="job-card">
+                <div class="job-header">
+                    <h3>Software Engineering Intern</h3>
+                    <span class="date">Oct 2024 – Jan 2025</span>
+                </div>
+                <h4 class="company">Haddee.com | Berkeley, CA</h4>
+                <ul>
+                    [cite_start]<li>Built a personalized AI chatbot using PyTorch/Pandas, increasing retention by <strong>9%</strong>[cite: 25].</li>
+                    [cite_start]<li>Designed AI inference algorithms to improve client-college matches by <strong>14%</strong>[cite: 26].</li>
+                    [cite_start]<li>Analyzed <strong>2,200+</strong> college programs with MySQL to train transformer models[cite: 27].</li>
+                </ul>
+            </div>
         </section>
         
         <section id="projects">
-            <h2>My Projects</h2>
-            <div class="project-card">
-                <h3>Project 1</h3>
-                <p>Description of a cool project goes here.</p>
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Deep Q-Network Pong Agent</h3>
+                    <p>Engineered a DQN agent with CNNs and Replay buffers to learn optimal policies from raw pixels. [cite_start]Achieved a <strong>95% win rate</strong> against humans[cite: 30, 31, 32].</p>
+                    <div class="project-tags"><span>Python</span> <span>PyTorch</span> <span>RL</span></div>
+                </div>
+                <div class="project-card">
+                    <h3>Procedural World Generation</h3>
+                    <p>Built an OOD generation system rendering 5,000+ environments. [cite_start]Optimized backend pipelines to reduce runtime by <strong>32%</strong> and latency by <strong>47%</strong>[cite: 34, 35, 36].</p>
+                    <div class="project-tags"><span>JavaScript</span> <span>Multithreading</span></div>
+                </div>
+                <div class="project-card">
+                    <h3>Large-Scale Ngram Analytics</h3>
+                    <p>Processed <strong>500B+ words</strong> from Google Ngram. [cite_start]Developed custom HashMaps and Red-Black Trees for O(log n) query times[cite: 38, 39].</p>
+                    <div class="project-tags"><span>Data Structures</span> <span>Algorithms</span></div>
+                </div>
             </div>
-             <div class="project-card">
-                <h3>Project 2</h3>
-                <p>Description of another cool project goes here.</p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="edu-card">
+                <h3>University of California, Irvine</h3>
+                <p><strong>Master of Computer Science</strong> | [cite_start]GPA: 4.0/4.0 [cite: 5]</p>
+                <p class="edu-details">Expected Dec 2026 | [cite_start]Focus: AI, ML, NLP, Computer Vision [cite: 5, 6]</p>
+            </div>
+            <div class="edu-card">
+                <h3>University of California, Berkeley</h3>
+                <p><strong>B.S. Electrical Engineering & Computer Science (EECS Honors)</strong> | [cite_start]GPA: 3.9/4.0 [cite: 8, 9]</p>
+                <p class="edu-details">May 2025 | [cite_start]Dean's List [cite: 9, 10]</p>
             </div>
         </section>
     </main>
