@@ -40,7 +40,8 @@ nav ul {
     display: flex;
     gap: 20px;
     padding: 0;
-    margin: 10;
+    margin: 0;
+    margin-left: 10;
 }
 
 nav a {
