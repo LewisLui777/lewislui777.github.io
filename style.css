@@ -262,7 +262,7 @@ strong {
     border: 3px solid #238636; /* Optional: Green border to match theme */
     margin-bottom: 20px; /* Space between image and text */
     display: block;      /* Helps with centering */
-    margin-left: 50px;   /* These two lines center the image... */
+    margin-left: 25px;   /* These two lines center the image... */
     /*margin-right: auto;*/  /* ...horizontally */
 }
 
