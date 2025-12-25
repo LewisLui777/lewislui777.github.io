@@ -253,6 +253,19 @@ strong {
     color: #8b949e;
 }
 
+/* Profile Image Styling */
+.profile-img {
+    width: 150px;        /* Width of the image */
+    height: 150px;       /* Height matches width for a perfect circle */
+    border-radius: 50%;  /* This makes it round */
+    object-fit: cover;   /* Ensures the photo doesn't stretch/squish */
+    border: 3px solid #238636; /* Optional: Green border to match theme */
+    margin-bottom: 20px; /* Space between image and text */
+    display: block;      /* Helps with centering */
+    margin-left: auto;   /* These two lines center the image... */
+    margin-right: auto;  /* ...horizontally */
+}
+
 /* Mobile Responsiveness */
 @media (max-width: 600px) {
     .job-header {
