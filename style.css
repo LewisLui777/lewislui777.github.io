@@ -256,8 +256,8 @@ strong {
 .edu-section {
     background-color: #161b22;
     border-left: 4px solid #238636; /* Green accent bar */
-    padding: 10px;
-    margin-bottom: 20px;
+    padding: 5px;
+    margin-bottom: 5px;
     border-radius: 0 6px 6px 0;
 }
 
