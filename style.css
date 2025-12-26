@@ -3,7 +3,20 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #369c3a; /* GitHub Dark Background */
+    /*background-color: #369c3a; /* GitHub Dark Background */ 
+    
+    /* --- NEW BACKGROUND CODE STARTS HERE --- */
+    /* 1. The Image (Replace 'hero-bg.jpg' with your file name) */
+    background-image: url('background.jpg');
+    
+    /* 2. Make it cover the whole screen without repeating */
+    background-size: cover;
+    background-position: center;
+    
+    /* 3. Lock it in place so it doesn't scroll with the text (cool effect) */
+    background-attachment: fixed;
+    
+    
     color: #c9d1d9; /* GitHub Light Text */
     line-height: 1.6;
 }
