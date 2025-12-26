@@ -16,6 +16,12 @@ header {
     /* Removed side padding from here so it doesn't push the content in */
     padding: 1rem 0; 
     border-bottom: 1px solid #30363d;
+
+    /* --- NEW CODE STARTS HERE --- */
+    position: sticky;  /* Tells the element to "stick" when scrolling */
+    top: 0;            /* Sticks exactly at the top (0 pixels from top) */
+    z-index: 1000;     /* Layers it on top of everything else (like a floating layer) */
+    /* --- NEW CODE ENDS HERE --- */
 }
 
 nav {
