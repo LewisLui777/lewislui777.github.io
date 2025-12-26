@@ -252,6 +252,15 @@ strong {
 }
 
 /* Education Section */
+
+.edu-section {
+    background-color: #161b22;
+    border-left: 4px solid #238636; /* Green accent bar */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 0 6px 6px 0;
+}
+
 .edu-card {
     margin-bottom: 20px;
     border-bottom: 1px solid #30363d;
