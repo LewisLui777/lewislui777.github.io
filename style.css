@@ -261,6 +261,20 @@ strong {
 }
 
 /* Projects Grid Layout */
+
+/* Style the project title links */
+.project-title-link {
+    text-decoration: none;   /* Removes the default underline */
+    color: inherit;          /* Uses the header's white color instead of blue */
+    transition: color 0.2s;  /* Makes the hover effect smooth */
+}
+
+/* Change color when hovering */
+.project-title-link:hover {
+    color: #58a6ff;          /* Turns GitHub-blue when you mouse over it */
+    text-decoration: underline;
+}
+
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
