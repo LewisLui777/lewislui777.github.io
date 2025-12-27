@@ -79,6 +79,14 @@ main {
     padding: 0 20px;
 }
 
+.about-section {
+    background-color: #161b22;
+    border-left: 4px solid #238636; /* Green accent bar */
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 0 6px 6px 0;
+}
+
 /* Sections */
 section {
     margin-bottom: 60px;
