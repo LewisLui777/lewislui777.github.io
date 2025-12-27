@@ -256,9 +256,15 @@ strong {
 .edu-section {
     background-color: #161b22;
     border-left: 4px solid #238636; /* Green accent bar */
-    padding: 5px;
-    margin-bottom: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
     border-radius: 0 6px 6px 0;
+}
+
+/* Removes the default space above the "Education" title */
+.edu-section h2 {
+    margin-top: 0;
+    padding-top: 5px; /* Optional: adds a tiny bit of breathing room inside */
 }
 
 .edu-card {
